@@ -9,7 +9,7 @@ Nama Anggota
 Ages Mahesa:
 - NasabahDataModel.java
 - NasabahFormController.java
-- DBHelper
+- DBHelper.java
 
 Weike Sandy Putra Matanari:
 - NasabahForm.fxml
@@ -22,7 +22,7 @@ M. Dzaky Fadhil Athaya:
 - Perusahan.java
 
 # Deskripsi Program
-Program ini merupakan program Sistem Koperasi Simpan Pinjam, dimana pada sistem ini terdapat dua jenis nasabah yaitu individu dan perusahan. Pada form Java FX, kita bisa mengakses fungsi-fungsi dalam sistem sehingga sistem dapat digunakan untuk tambah data nasabah, tambah rekening dan tambah saldo. 
+Program ini merupakan program Sistem Koperasi Simpan Pinjam, dimana pada sistem ini terdapat dua jenis nasabah yaitu individu dan perusahan. Pada form Java FX, kita bisa mengakses fungsi-fungsi dalam sistem sehingga sistem dapat digunakan untuk tambah data nasabah, tambah rekening, tambah saldo dan tarik tunai. 
 
 Libraries yang digunakan:
 - sqlite-jdbc-3.34.0.jar
