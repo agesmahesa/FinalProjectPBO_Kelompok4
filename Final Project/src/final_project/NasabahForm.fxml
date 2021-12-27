@@ -16,7 +16,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="691.0" prefWidth="1291.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="final_project.NasabahFormController">
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="691.0" prefWidth="1291.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="final_project.NasabahFormController">
    <children>
       <MenuBar layoutX="5.0" layoutY="3.0" prefHeight="33.0" prefWidth="1291.0">
         <menus>
@@ -102,35 +102,35 @@
                                              <children>
                                                 <HBox layoutX="-27.0" prefHeight="251.0" prefWidth="871.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-27.0" AnchorPane.rightAnchor="267.0" AnchorPane.topAnchor="0.0">
                                                    <children>
-                                                      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="255.0" prefWidth="396.0" style="-fx-background-color: # #000957;">
+                                                      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="223.0" prefWidth="387.0" style="-fx-background-color: #DDFDFE;">
                                                          <children>
-                                                            <TableView fx:id="tbvRekening_I" layoutX="9.0" prefHeight="253.0" prefWidth="401.0">
+                                                            <TableView fx:id="tbvRekening_I" layoutX="8.0" prefHeight="224.0" prefWidth="379.0">
                                                               <columns>
                                                                 <TableColumn fx:id="colNoRekBaru_I" prefWidth="177.33328247070312" text="Nomor Rekening" />
                                                                   <TableColumn fx:id="colSaldo_I" minWidth="0.0" prefWidth="290.0000915527344" text="Saldo" />
                                                               </columns>
                                                             </TableView>
                                                          </children></AnchorPane>
-                                                      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="254.0" prefWidth="569.0" style="-fx-background-color: #577BC1;">
+                                                      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="223.0" prefWidth="569.0" style="-fx-background-color: #577BC1;">
                                                          <children>
-                                                            <TextField fx:id="tfId_NasabahBaru_I" editable="false" layoutX="314.0" layoutY="41.0" prefHeight="33.0" prefWidth="240.0" promptText="ID Nasabah" />
-                                                            <TextField fx:id="tfNoRekBaru_I" editable="false" layoutX="314.0" layoutY="80.0" prefHeight="33.0" prefWidth="241.0" promptText="Nomor Rekening Baru" />
-                                                            <TextField fx:id="tfSaldoBaru_I" layoutX="314.0" layoutY="120.0" prefHeight="33.0" prefWidth="242.0" promptText="Saldo Baru" />
-                                                            <Button fx:id="btnTambahRekening_I" layoutX="313.0" layoutY="161.0" mnemonicParsing="false" onAction="#handleTambahRekeningBtn_I" prefHeight="33.0" prefWidth="243.0" text="Tambah Rekening" />
-                                                            <AnchorPane prefHeight="263.0" prefWidth="308.0" style="-fx-background-color: #000957;">
+                                                            <TextField fx:id="tfId_NasabahBaru_I" editable="false" layoutX="309.0" layoutY="46.0" prefHeight="33.0" prefWidth="240.0" promptText="ID Nasabah" />
+                                                            <TextField fx:id="tfNoRekBaru_I" editable="false" layoutX="309.0" layoutY="85.0" prefHeight="33.0" prefWidth="241.0" promptText="Nomor Rekening Baru" />
+                                                            <TextField fx:id="tfSaldoBaru_I" layoutX="309.0" layoutY="125.0" prefHeight="33.0" prefWidth="242.0" promptText="Saldo Baru" />
+                                                            <Button fx:id="btnTambahRekening_I" layoutX="308.0" layoutY="166.0" mnemonicParsing="false" onAction="#handleTambahRekeningBtn_I" prefHeight="33.0" prefWidth="243.0" text="Tambah Rekening" />
+                                                            <AnchorPane prefHeight="218.0" prefWidth="292.0" style="-fx-background-color: #000957;">
                                                                <children>
-                                                                  <TextField fx:id="tfNominal_I" layoutX="13.0" layoutY="81.0" prefHeight="33.0" prefWidth="283.0" promptText="Nominal" />
-                                                                  <Button fx:id="btnTambahSaldo_I" layoutX="13.0" layoutY="121.0" mnemonicParsing="false" onAction="#handleTambahSaldoBtn_I" prefHeight="33.0" prefWidth="283.0" text="Tambah Saldo" />
-                                                                  <Button fx:id="btnTarikTunai_I" contentDisplay="BOTTOM" layoutX="13.0" layoutY="162.0" mnemonicParsing="false" onAction="#handleTarikTunaiBtn_I" prefHeight="33.0" prefWidth="284.0" text="Tarik Tunai" />
+                                                                  <TextField fx:id="tfNominal_I" layoutX="2.0" layoutY="81.0" prefHeight="33.0" prefWidth="283.0" promptText="Nominal" />
+                                                                  <Button fx:id="btnTambahSaldo_I" layoutX="2.0" layoutY="121.0" mnemonicParsing="false" onAction="#handleTambahSaldoBtn_I" prefHeight="33.0" prefWidth="283.0" text="Tambah Saldo" />
+                                                                  <Button fx:id="btnTarikTunai_I" contentDisplay="BOTTOM" layoutX="2.0" layoutY="162.0" mnemonicParsing="false" onAction="#handleTarikTunaiBtn_I" prefHeight="33.0" prefWidth="284.0" text="Tarik Tunai" />
                                                                   <Label alignment="CENTER" layoutX="52.0" prefHeight="21.0" prefWidth="215.0" style="-fx-background-color: #EBE645;" text="TRANSAKSI" textFill="#030303">
                                                                      <font>
                                                                         <Font name="Lucida Bright Demibold" size="20.0" />
                                                                      </font>
                                                                   </Label>
-                                                                  <TextField fx:id="tfPilihan_I" editable="false" layoutX="14.0" layoutY="39.0" prefHeight="33.0" prefWidth="281.0" promptText="Nomor Rekening" />
+                                                                  <TextField fx:id="tfPilihan_I" editable="false" layoutX="3.0" layoutY="39.0" prefHeight="33.0" prefWidth="281.0" promptText="Nomor Rekening" />
                                                                </children>
                                                             </AnchorPane>
-                                                            <Label alignment="CENTER" layoutX="344.0" prefHeight="33.0" prefWidth="181.0" style="-fx-background-color: #EBE645;" text="REKENING BARU">
+                                                            <Label alignment="CENTER" layoutX="339.0" layoutY="5.0" prefHeight="33.0" prefWidth="181.0" style="-fx-background-color: #EBE645;" text="REKENING BARU">
                                                                <font>
                                                                   <Font name="Lucida Bright Demibold" size="20.0" />
                                                                </font>
@@ -199,8 +199,8 @@
                                                       <TableColumn fx:id="colId_Nasabah_P" prefWidth="111.33330476284027" text="ID Nasabah" />
                                                       <TableColumn fx:id="colNama_P" minWidth="-Infinity" prefWidth="255.99996948242188" text="Nama" />
                                                       <TableColumn fx:id="colAlamat_P" minWidth="0.0" prefWidth="258.6666259765625" text="Alamat" />
-                                                      <TableColumn fx:id="colNib_P" prefWidth="178.66668701171875" text="NIB" />
-                                                      <TableColumn fx:id="colNoRek_P" prefWidth="105.3333740234375" text="Jumlah Rekening" />
+                                                      <TableColumn fx:id="colNib_P" prefWidth="167.333251953125" text="NIB" />
+                                                      <TableColumn fx:id="colNoRek_P" prefWidth="113.3333740234375" text="Jumlah Rekening" />
                                                    </columns>
                                                 </TableView>
                                              </children>
@@ -214,21 +214,21 @@
                                                    <children>
                                                       <AnchorPane prefHeight="257.0" prefWidth="396.0" style="-fx-background-color: #DDFDFE;">
                                                          <children>
-                                                            <TableView fx:id="tbvRekening_P" layoutX="-1.0" layoutY="-4.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="273.0" prefWidth="403.0">
+                                                            <TableView fx:id="tbvRekening_P" layoutX="-7.0" layoutY="-1.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="257.0" prefWidth="409.0">
                                                                <columns>
-                                                                  <TableColumn fx:id="colNoRekBaru_P" prefWidth="228.0" text="Nomor Rekening" />
-                                                                  <TableColumn fx:id="colSaldo_P" minWidth="0.0" prefWidth="238.0" text="Saldo" />
+                                                                  <TableColumn fx:id="colNoRekBaru_P" prefWidth="233.0" text="Nomor Rekening" />
+                                                                  <TableColumn fx:id="colSaldo_P" minWidth="0.0" prefWidth="233.0" text="Saldo" />
                                                                </columns>
                                                             </TableView>
                                                          </children>
                                                       </AnchorPane>
                                                       <AnchorPane prefHeight="256.0" prefWidth="678.0" style="-fx-background-color: #577BC1;">
                                                          <children>
-                                                            <TextField fx:id="tfID_NasabahBaru_P" editable="false" layoutX="262.0" layoutY="42.0" prefHeight="38.0" prefWidth="240.0" promptText="ID Nasabah" />
-                                                            <TextField fx:id="tfNoRekBaru_P" editable="false" layoutX="262.0" layoutY="86.0" prefHeight="38.0" prefWidth="240.0" promptText="Nomor Rekening Baru" />
-                                                            <TextField fx:id="tfSaldoBaru_P" layoutX="262.0" layoutY="132.0" prefHeight="38.0" prefWidth="240.0" promptText="Saldo Baru" />
-                                                            <Button fx:id="btnTambahRekening_P" layoutX="262.0" layoutY="179.0" mnemonicParsing="false" onAction="#handleTambahRekeningBtn_P" prefHeight="38.0" prefWidth="240.0" text="Tambah Rekening" />
-                                                            <AnchorPane layoutX="-1.0" prefHeight="269.0" prefWidth="258.0" style="-fx-background-color: #000957;">
+                                                            <TextField fx:id="tfID_NasabahBaru_P" editable="false" layoutX="258.0" layoutY="47.0" prefHeight="38.0" prefWidth="240.0" promptText="ID Nasabah" />
+                                                            <TextField fx:id="tfNoRekBaru_P" editable="false" layoutX="258.0" layoutY="91.0" prefHeight="38.0" prefWidth="240.0" promptText="Nomor Rekening Baru" />
+                                                            <TextField fx:id="tfSaldoBaru_P" layoutX="258.0" layoutY="137.0" prefHeight="38.0" prefWidth="240.0" promptText="Saldo Baru" />
+                                                            <Button fx:id="btnTambahRekening_P" layoutX="258.0" layoutY="184.0" mnemonicParsing="false" onAction="#handleTambahRekeningBtn_P" prefHeight="38.0" prefWidth="240.0" text="Tambah Rekening" />
+                                                            <AnchorPane prefHeight="245.0" prefWidth="258.0" style="-fx-background-color: #000957;">
                                                                <children>
                                                                   <TextField fx:id="tfNominal_P" layoutX="7.0" layoutY="87.0" prefHeight="40.0" prefWidth="245.0" promptText="Nominal" />
                                                                   <Button fx:id="btnTambahSaldo_P" layoutX="7.0" layoutY="134.0" mnemonicParsing="false" onAction="#handleTambahSaldoBtn_P" prefHeight="38.0" prefWidth="245.0" text="Tambah Saldo" />
@@ -241,7 +241,7 @@
                                                                   <TextField fx:id="tfPilihan_P" editable="false" layoutX="7.0" layoutY="40.0" prefHeight="39.0" prefWidth="245.0" promptText="Nomor Rekening" />
                                                                </children>
                                                             </AnchorPane>
-                                                            <Label alignment="CENTER" layoutX="287.0" prefHeight="30.0" prefWidth="181.0" style="-fx-background-color: #EBE645;" text="REKENING BARU" textFill="#111111">
+                                                            <Label alignment="CENTER" layoutX="279.0" layoutY="6.0" prefHeight="30.0" prefWidth="181.0" style="-fx-background-color: #EBE645;" text="REKENING BARU" textFill="#111111">
                                                                <font>
                                                                   <Font name="Lucida Bright Demibold" size="20.0" />
                                                                </font>
