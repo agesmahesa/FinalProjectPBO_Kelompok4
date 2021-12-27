@@ -33,3 +33,6 @@ Tools yang digunakan:
 - Netbeans IDE 8.2
 - Scene Builder
 - Sqlite Studio
+
+Class Diagram untuk JavaFX dan Database
+![mermaid-diagram-20211227150343](https://user-images.githubusercontent.com/78712553/147450949-5997d422-60aa-47f2-889d-a1877ccdd1ed.png)
